@@ -95,8 +95,6 @@ public class Main
                 writer.write("not bijective\n");
             }
 
-            print(y);
-
             writer.close();
             reader.close();
             input.close();
@@ -114,9 +112,9 @@ public class Main
     public static boolean isOneToOne(int[] arr)
     {
 
-        for(int i = 0; i < arr.length; i++)
+        for(int i = 0; i < arr.length-1; i++)
         {
-            for(int j = 0; j < arr.length; i++)
+            for(int j = i+1; j < arr.length; j++)
             {
                 if(arr[i] == arr[j])
                 {
@@ -152,6 +150,8 @@ public class Main
         return true;
     }
 
+
+    // Method created for debugging
     public static void print(int[] arr)
     {
         for(int i = 0; i < arr.length; i++)
