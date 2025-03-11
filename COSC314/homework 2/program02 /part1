@@ -1,0 +1,39 @@
+/////////////////////////////////////////////////
+
+- ask input and output file names
+
+- open input and output files
+
+/////////////////////////////////////////////////
+
+- n = read size of matrix
+
+- x = create array of size nxn
+
+- read nxn values into x
+
+/////////////////////////////////////////////////
+
+- decide whether x is reflexive [check (i,i) is 1]
+
+- decide whether x is symmetric [check (i,j) equals (j,i)]
+
+- decide whether x is antisymmtric [check (i,j) and (j,i) are not 1]
+
+- decide whether x is transitive [find x^2, check x^2 is subset of x]
+
+/////////////////////////////////////////////////
+
+- decide whether x is equivalence [check x is reflexive, symmetric, transitive]
+
+- decide whether x is partial order [check x is reflexive, antisymmetric, transitive]
+
+/////////////////////////////////////////////////
+
+- print yes/no for six questions
+
+/////////////////////////////////////////////////
+
+
+
+
