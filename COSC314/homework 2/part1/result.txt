@@ -1,0 +1,6 @@
+reflexive          - yes
+symmetric          - no
+transitive         - yes
+antisymmetric      - yes
+equivalent         - no
+partial order      - yes
