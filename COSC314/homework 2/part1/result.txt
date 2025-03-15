@@ -1,6 +1,23 @@
+------- part 1 -------
+
+- - - file 1 answer - - -
+
 reflexive          - yes
 symmetric          - no
 transitive         - yes
 antisymmetric      - yes
 equivalent         - no
 partial order      - yes
+
+
+- - - file 2 answer - - -
+
+reflexive          - yes
+symmetric          - yes
+transitive         - yes
+antisymmetric      - no
+equivalent         - yes
+partial order      - no
+
+------- part 2 -------
+

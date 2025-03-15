@@ -103,6 +103,9 @@ public class Driver
                 writer.write("partial order      - no\n");
             }
 
+            // Debugging purposing
+            System.err.println(n);
+
             // Closing the streams
             writer.close();
             reader.close();
